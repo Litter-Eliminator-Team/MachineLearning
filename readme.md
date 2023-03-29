@@ -24,10 +24,15 @@ I tried to use Hypergator first, but I ran into problems trying to install the "
 #### Rough Estimation of work
 
 General Preliminary research/Speaking with ML professor ~ 3 hours
+
 Research pytorch documentation ~ 1 hour
+
 Research detector documentation ~ 1 hour
+
 Complete Basic excercises using detector ~ 4 hours
+
 Research Hypergator functionality ~ 2 hours
+
 
 #### Documentation/Refrences
 
