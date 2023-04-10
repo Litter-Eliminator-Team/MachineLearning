@@ -1,0 +1,7 @@
+ Log for ML Work:
+ 
+ Thursday April 6th: Found and collected sample trash items ~ 30 min
+ 
+ Monday April 10th: Created training data for ML model on three sample objects(took pictures).
+ Roughly 300 images per object = 900 total images ~ 2 hours
+ 
