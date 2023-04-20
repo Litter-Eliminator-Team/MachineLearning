@@ -1,6 +1,18 @@
 ## Liter Eliminator ML
 This repo is specifically for the Machine learning aspect of the project. The code will include the source code for the models that are needed. 
 
+#### Creating a Haar Cascade Classification Model:
+The model was created using a pre-built application called Cascade Trainer GUI.
+https://amin-ahmadi.com/cascade-trainer-gui/
+Through this application, a lot of time is saved. It allows experimentatio with a model without having to fully implement it yourself. The drawback is relativly low custimization of the model. However as always, a great amount of time is required to collect training data.
+To run the program, a directory for positive images(images containg the desire object) and a directory for negative images need to be specified. Sometimes the paramter "Positive Image Usage" must be decreased otherwise the model will throw errors in trianing. This is due to insuficient amount of training data
+
+#### Running yolo V5 model
+First this repo should be cloned into a directory. Run the initial commands in the jupyter notebook to install the required dependencies as well as cloning the yoloV5 directory. Retraining the model is not necessary, the best_yoloN.pt or best_yoloS.pt are models that were created after running the training command. One of the models need to be placed in the runs/predict directory of the yolov5 repo in order for prediction function in the jupyter notbook to work. Last, a path to one of the training phots should be specified. This photo can then be used for prediction when calling the inference() function. The output should be visible when calling the visualize() function. 
+
+
+
+### For Continuity, information below is retained, but only relevant to the pre-alpha build Milestone
 
 #### Dependencies:
 From current research, "pytorch" will be the base package of the project. However, there are packages like "Detecto" that provide an abstraction layer above pytorch. Part of the abstraction is a standardized approach for training models for object detection.  "detecto" allows for much simpler and condensed code, but sacrifices customization capability and performance in some cases.
