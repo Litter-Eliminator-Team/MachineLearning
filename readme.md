@@ -4,7 +4,7 @@ This repo is specifically for the Machine learning aspect of the project. The co
 #### Creating a Haar Cascade Classification Model:
 The model was created using a pre-built application called Cascade Trainer GUI.
 https://amin-ahmadi.com/cascade-trainer-gui/
-Through this application, a lot of time is saved. It allows experimentatio with a model without having to fully implement it yourself. The drawback is relativly low custimization of the model. However as always, a great amount of time is required to collect training data.
+Through this application, a lot of time is saved. It allows experimentation with a model without having to fully implement it yourself. The drawback is relativly low custimization of the model. However as always, a great amount of time is required to collect training data.
 To run the program, a directory for positive images(images containg the desire object) and a directory for negative images need to be specified. Sometimes the paramter "Positive Image Usage" must be decreased otherwise the model will throw errors in trianing. This is due to insuficient amount of training data
 
 #### Running yolo V5 model
